@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Product Grid — Luiz Gustavo Sabadim Spolon Junqueira</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main class="container">
+      <header class="top-controls">
+        <div class="search-wrap">
+          <label for="search" class="visually-hidden">Search products</label>
+          <input
+            id="search"
+            type="search"
+            placeholder="Search products..."
+            aria-label="Search products"
+          />
+        </div>
+        <button id="add-sample" class="primary">Add Sample Product</button>
+      </header>
+
+      <section class="products-grid" id="productsGrid">
+        <article class="product-card" data-title="Basic T-Shirt">
+          <img
+            src="https://picsum.photos/seed/camiseta/800/600"
+            alt="Basic T-Shirt"
+          />
+          <h3 class="product-title">Basic T-Shirt</h3>
+          <p class="product-desc">
+            Comfortable cotton t-shirt available in multiple colors.
+          </p>
+          <div class="product-footer">
+            <span class="price">$49.90</span>
+            <button class="add-btn">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card" data-title="Urban Backpack">
+          <img
+            src="https://picsum.photos/seed/mochila/800/600"
+            alt="Urban Backpack"
+          />
+          <h3 class="product-title">Urban Backpack</h3>
+          <p class="product-desc">
+            Durable backpack with a padded laptop compartment.
+          </p>
+          <div class="product-footer">
+            <span class="price">$199.00</span>
+            <button class="add-btn">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card" data-title="Minimal Mug">
+          <img
+            src="https://picsum.photos/seed/caneca/800/600"
+            alt="Minimal Mug"
+          />
+          <h3 class="product-title">Minimal Mug</h3>
+          <p class="product-desc">
+            350ml ceramic mug, perfect for coffee or tea.
+          </p>
+          <div class="product-footer">
+            <span class="price">$29.50</span>
+            <button class="add-btn">Add to Cart</button>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <noscript
+      >This example requires JavaScript for filtering and adding
+      products.</noscript
+    >
+  </body>
+</html>
